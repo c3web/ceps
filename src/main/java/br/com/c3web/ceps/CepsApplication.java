@@ -1,0 +1,13 @@
+package br.com.c3web.ceps;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CepsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CepsApplication.class, args);
+	}
+
+}
